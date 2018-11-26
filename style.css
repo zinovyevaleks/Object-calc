@@ -1,164 +1,135 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-.calc
-{
+.calc {
     display: -webkit-flex;
-    display:     -ms-flex;
-    display:         flex;
+    display: -ms-flex;
+    display: flex;
     overflow: hidden;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-
+    -ms-flex-direction: column;
+    flex-direction: column;
     max-width: 1170px;
     min-height: 760px;
     margin: 0 auto;
     margin-bottom: 100px;
-
     border-radius: 30px;
     background-color: #fff;
     box-shadow: 8px 9px 36px 0 rgba(0, 0, 0, .21);
 }
 
-.calc p
-{
+.calc p {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-
     margin-bottom: 0;
-
     letter-spacing: .5px;
 }
 
-.calc .calc_row
-{
+.calc .calc_row {
     display: -webkit-flex;
-    display:     -ms-flex;
-    display:         flex;
+    display: -ms-flex;
+    display: flex;
 }
 
-.calc h2
-{
+.calc h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: 700;
-
     margin-top: 63px;
     margin-right: auto;
     margin-bottom: 56px;
     margin-left: auto;
-
     color: #4f4f4f;
 }
 
-.calc h2 span
-{
+.calc h2 span {
     color: #c92385;
 }
 
-.calc hr
-{
+.calc hr {
     width: 1060px;
     height: 2px;
     margin-top: 54px;
-
     background-color: #c92385;
 }
 
-.form_content
-{
+.form_content {
     display: -webkit-flex;
-    display:     -ms-flex;
-    display:         flex;
+    display: -ms-flex;
+    display: flex;
 }
-.form_footer
-{
+
+.form_footer {
     display: -webkit-flex;
-    display:     -ms-flex;
-    display:         flex;
+    display: -ms-flex;
+    display: flex;
 }
-.form_col-left
-{
+
+.form_col-left {
     overflow: hidden;
-
     width: 50%;
 }
 
-.form_col-right
-{
+.form_col-right {
     width: 50%;
 }
 
-.form_element
-{
+.form_element {
     display: -webkit-flex;
-    display:     -ms-flex;
-    display:         flex;
-        align-items: center;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-
     margin-bottom: 54px;
     padding-right: 9.5%;
     padding-left: 10%;
-
     -ms-align-items: center;
 }
 
-.form_select
-{
+.form_select {
     display: flex;
-
     width: 47%;
     height: 42px;
 }
 
-.form_select select
-{
+.form_select select {
     width: 100%;
-
     border: none;
     border-radius: 6px;
     background-color: #fff;
-    box-shadow: inset 0 3px 12px 0 rgba(0,0,0,.19);
+    box-shadow: inset 0 3px 12px 0 rgba(0, 0, 0, .19);
 }
 
-.form__input
-{
+.form__input {
     display: flex;
-
     width: 47%;
     height: 42px;
 }
 
-.form__input input
-{
+.form__input input {
     width: 221px;
     padding-left: 8px;
-
     border: none;
     border-radius: 6px;
     background-color: #fff;
-    box-shadow: inset 0 3px 12px 0 rgba(0,0,0,.19);
+    box-shadow: inset 0 3px 12px 0 rgba(0, 0, 0, .19);
+    -webkit-appearance: none;
 }
 
-.form_footer button
-{
+.form_footer button {
     font-family: 'Montserrat', sans-serif;
     font-size: 13.34px;
     font-weight: 700;
-
     width: 47%;
     height: 46px;
     margin-top: 2em;
-
     color: #fff;
     border-radius: 6px;
     background-color: #bf9b30;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .48);
+    border: none;
 }
 
-.form_footer .checkbox
-{
+.form_footer .checkbox {
     width: 14px;
     height: 14px;
     margin-top: 18px;
@@ -166,77 +137,115 @@
     margin-left: -3px;
 }
 
-.form_footer p
-{
+.form_footer p {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 19.281px;
-
     width: 42%;
     margin-top: 36px;
     margin-left: -10%;
-
     text-align: left;
-
     color: #4f4f4f;
 }
 
-.form_footer p span
-{
+.form_footer p span {
     color: #c92385;
 }
 
-.form_footer .form_col-left h3
-{
+.form_footer .form_col-left h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 700;
-
     margin-top: 4.6%;
     margin-bottom: 0;
     margin-left: 9%;
-
     text-align: left;
-
     color: #4f4f4f;
 }
 
-.form_footer .form_col-right h3
-{
+.form_footer .form_col-right h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
-
     margin-top: 13%;
     margin-right: 10%;
-
     text-align: right;
-
     color: #4f4f4f;
 }
 
-
-.form_footer .form_element
-{
+.form_footer .form_element {
     margin-top: 32px;
     margin-bottom: -37px;
 }
 
-.form_footer .form_element:last-child
-{
+.form_footer .form_element:last-child {
     margin-bottom: auto;
 }
 
-.form_footer .result
-{
+.form_footer .result {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 700;
-
     margin-right: 10%;
-
     text-align: right;
-
     color: #bf9b30;
+}
+
+@media (max-width:1024px) {
+    .form_content {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .form_col-left {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .form_col-right {
+        width: 100%;
+    }
+
+    .form_footer {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .form__input input {
+        width: 100%;
+    }
+
+    .form_footer .form_col-right h3 {
+        margin-top: 5%;
+    }
+
+    .form_footer .result {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .calc h2 {
+        width: 80%;
+        text-align: center;
+    }
+
+    @media (max-width: 425px) {
+        .form_element img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .form_element p {
+            font-size: 12px;
+            font-weight: 900;
+        }
+
+        .form__input input {
+            font-size: 14px;
+        }
+    }
 }
